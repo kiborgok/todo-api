@@ -1,0 +1,24 @@
+{
+  "name": "todo-api",
+  "version": "1.0.0",
+  "description": "Simple todo-api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiborgok/todo-api.git"
+  },
+  "keywords": [
+    "express",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "kiborgok",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kiborgok/todo-api/issues"
+  },
+  "homepage": "https://github.com/kiborgok/todo-api#readme"
+}
