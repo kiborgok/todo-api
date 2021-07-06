@@ -24,7 +24,7 @@ userSchema.methods.generateAuthToken = function () {
       _id: this._id,
       name: this.name,
     },
-    "jwtPrivateKey"
+    process.env.SECRET_KEY || "jwtPrivateKey"
   );
   return token;
 };
